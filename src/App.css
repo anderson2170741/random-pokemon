@@ -160,7 +160,7 @@ footer{
 
   .data {
     width: 50%;
-    height: 22vh;
+    height: 90px;
   }
 
   .data p {
@@ -170,7 +170,7 @@ footer{
   
   .btn {
     width: 50%;
-    height: 0vh;
+    height: 0px;
   }
 
   button {
