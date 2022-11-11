@@ -1,0 +1,188 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1280px;
+}
+
+.logo {
+  margin-top: 15px;
+  width: 40%;
+  height: 110px;
+  background-image: url(./img/pngegg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.card {
+  margin-top: 15px;
+  border-radius: 30px;
+  box-shadow: 2px 2px 8px rgb(0, 0, 0, .3);
+  width: 60%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-img {
+  margin: 0 auto;
+  width: 60%;
+  text-align: center;
+}
+
+.container-img img {
+  width: 200px;
+  height: 350px;
+
+}
+
+.container-img h1 {
+  font-size: 35px;
+  color: #213b6c;
+}
+
+.container-data {
+  padding: 25px;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.data {
+  height: 32vh;
+}
+
+.data p {
+  margin-top: 40px;
+  font-size: 20px;
+  color: #213b6c;
+}
+
+.btn {
+  display: grid;
+  place-items: center;
+}
+
+button {
+  margin-bottom: 15px;
+  width: 100%;
+  height: 35px;
+  border-radius: 30px;
+  border: 1px solid #213b6c;
+  background-color: #fcc404;
+  font-size: 18px;
+  color: #213b6c;
+}
+
+button:hover {
+  border: 3px solid #213b6c;
+  cursor: pointer;
+}
+
+footer{
+  padding-top: 15px;
+  text-align: center;
+  color: #fcc404;
+  font-size: 8px;
+}
+
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+  .logo {
+    width: 75%;
+  }
+
+  .card {
+    width: 90%;
+    height: 80vh;
+    display: grid;
+  }
+
+  .container-data {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .data {
+    width: 50%;
+    height: 25vh;
+  }
+
+  .data p {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #213b6c;
+  }
+  
+  .btn {
+    width: 50%;
+  }
+
+  footer{
+    font-size: 8px;
+  }
+
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+  
+  .logo {
+    width: 60%;
+    height: 45px;
+  }
+
+  .card {
+    width: 90%;
+    height: 84vh;
+    display: grid;
+  }
+
+  .container-img img {
+    width: 140px;
+    height: 250px;
+  
+  }
+
+  .container-img h1 {
+    font-size: 25px;
+    color: #213b6c;
+  }
+
+  .container-data {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .data {
+    width: 50%;
+    height: 22vh;
+  }
+
+  .data p {
+    margin-top: 5px;
+    font-size: 12.5px;
+  }
+  
+  .btn {
+    width: 50%;
+    height: 0vh;
+  }
+
+  button {
+    margin-bottom: 12px;
+    width: 100%;
+    height: 20px;
+    font-size: 12.5px;
+  }
+
+  footer{
+    padding-top: 12px;
+    font-size: 5px;
+  }
+
+}
