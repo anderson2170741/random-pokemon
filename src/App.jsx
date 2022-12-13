@@ -26,7 +26,7 @@ function App() {
       <div className='card'>
         <div className='container-img'>
           <img src={pokemon.sprites?.other.dream_world.front_default} alt="" />
-          <h1>{pokemon.name}</h1>
+          <h1 style={{textTransform: 'capitalize'}}>{pokemon.name}</h1>
         </div>
         <div className='container-data'>
           <div className='data'>
