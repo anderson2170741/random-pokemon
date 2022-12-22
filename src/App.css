@@ -143,13 +143,16 @@ footer{
     font-size: 5px;
   }
 
+  @media (orientation: landscape) {
+
+    .logo {
+      height: 60px;
+    }
+  }
+
 }
 
 @media only screen and (min-width:768px) and (max-width:926px) {
-
-  .logo {
-    width: 50%;
-  }
 
   .card {
     width: 90%;
