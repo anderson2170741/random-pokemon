@@ -20,7 +20,6 @@
   border-radius: 30px;
   box-shadow: 2px 2px 8px rgb(0, 0, 0, .3);
   width: 60%;
-  height: 70vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,6 +27,7 @@
 
 .container-img {
   margin: 0 auto;
+  padding-top: 15px;
   width: 60%;
   text-align: center;
 }
@@ -35,10 +35,10 @@
 .container-img img {
   width: 200px;
   height: 350px;
-
 }
 
 .container-img h1 {
+  padding-bottom: 25px;
   font-size: 35px;
   color: #213b6c;
 }
@@ -49,10 +49,6 @@
   width: 40%;
 }
 
-.data {
-  height: 32vh;
-}
-
 .data p {
   margin-top: 40px;
   font-size: 20px;
@@ -60,6 +56,7 @@
 }
 
 .btn {
+  padding-top: 30px;
   display: grid;
   place-items: center;
 }
@@ -87,71 +84,31 @@ footer{
   font-size: 8px;
 }
 
-@media only screen and (min-width:481px) and (max-width:768px) {
-
+@media only screen and (min-width:320px) and (max-width:767px) {
+  
   .logo {
-    width: 75%;
+    width: 50%;
+    height: 40px;
   }
 
   .card {
     width: 90%;
-    height: 80vh;
-    display: grid;
-  }
-
-  .container-data {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-
-  .data {
-    width: 50%;
-    height: 25vh;
-  }
-
-  .data p {
-    margin-top: 20px;
-    font-size: 20px;
-    color: #213b6c;
-  }
-  
-  .btn {
-    width: 50%;
-  }
-
-  footer{
-    font-size: 8px;
-  }
-
-}
-
-@media only screen and (min-width:320px) and (max-width:480px) {
-  
-  .logo {
-    width: 60%;
-    height: 45px;
-  }
-
-  .card {
-    width: 90%;
-    height: 79vh;
     display: grid;
   }
 
   .container-img img {
     width: 80%;
-    height: 50vh;
-  
+    max-height: 250px;
   }
 
   .container-img h1 {
+    padding-top: 15px;
     font-size: 25px;
     color: #213b6c;
   }
 
   .container-data {
+    padding-top: 5px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -159,29 +116,76 @@ footer{
   }
 
   .data {
+    padding-top: 15px;
     width: 50%;
-    height: 15vh;
   }
 
   .data p {
-    margin-top: 2vh;
+    padding-bottom: 30px;
+    margin-top: 0;
     font-size: 13px;
   }
   
   .btn {
+    padding-top: 5px;
     width: 50%;
   }
 
   button {
     margin-bottom: 12px;
     width: 100%;
-    height: 5vh;
+    height: 30px;
     font-size: 13px;
   }
 
   footer{
     padding: 15px;
     font-size: 5px;
+  }
+
+}
+
+@media only screen and (min-width:768px) and (max-width:926px) {
+
+  .logo {
+    width: 50%;
+  }
+
+  .card {
+    width: 90%;
+    display: grid;
+  }
+
+  .container-data {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .data {
+    padding-top: 20px;
+    width: 50%;
+  }
+
+  .data p {
+    padding-bottom: 40px;
+    margin-top: 0;
+    font-size: 20px;
+    color: #213b6c;
+  }
+  
+  .btn {
+    padding-top: 10px;
+    width: 50%;
+  }
+
+  button {
+    height: 45px;
+  }
+
+  footer{
+    font-size: 8px;
   }
 
 }
